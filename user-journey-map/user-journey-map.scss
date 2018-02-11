@@ -48,6 +48,7 @@
     text-align: left;
     transition: all 0.3s;
     resize: none;
+    word-break: break-word;
 
     &:focus {
       background-color: rgba(0, 0, 0, 0.5);
