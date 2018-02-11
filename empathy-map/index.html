@@ -1,0 +1,51 @@
+<!doctype>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Empathy Map</title>
+
+    <link href="/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+
+    <link rel="icon" sizes="192x192" href="favicon-192x192.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="mask-icon" href="favicon.svg" color="#0e7cb3">
+  </head>
+  <body>
+    <form class="EM">
+      <div class="EM-header">
+        <h1 class="EM-title">Empathy Map</h1>
+        <input type="reset" class="EM-clearBtn" value="Clear">
+      </div>
+      
+      <div class="EM-section EM-section--name" aria-label="Name">
+        <input type="text" class="EM-input" id="EM-input--name">
+        <label for="EM-input--name" class="EM-label">Name</label>
+      </div>
+      
+      <div class="EM-section EM-section--do" aria-label="Do">
+        <textarea class="EM-input" id="EM-input--do"></textarea>
+        <label for="EM-input--do" class="EM-label">Do</label>
+      </div>
+      
+      <div class="EM-section EM-section--see" aria-label="See">
+        <textarea class="EM-input" id="EM-input--see"></textarea>
+        <label for="EM-input--see" class="EM-label">See</label>
+      </div>
+      
+      <div class="EM-section EM-section--thinkFeel" aria-label="Think / Feel">
+        <textarea class="EM-input" id="EM-input--thinkFeel"></textarea>
+        <label for="EM-input--thinkFeel" class="EM-label">Think / Feel</label>
+      </div>
+      
+      <div class="EM-section EM-section--situation" aria-label="Situation">
+        <textarea class="EM-input" id="EM-input--situation"></textarea>
+        <label for="EM-input--situation" class="EM-label">Situation</label>
+      </div>
+    </form>
+
+    <script src="main.js"></script>
+  </body>
+</html>

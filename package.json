@@ -1,0 +1,19 @@
+{
+  "name": "mapping-user-journey-interactives",
+  "version": "1.0.0",
+  "main": "index.html",
+  "author": "Matt Turco <matt.turco@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.7.2",
+    "normalize.css": "^8.0.0",
+    "npm-run-all": "^4.1.2"
+  },
+  "scripts": {
+    "start": "npm-run-all -p start-css start-server",
+    "start-css": "node-sass -w --include-path node_modules main.scss main.css",
+    "start-server": "live-server",
+    "build": "node-sass --include-path node_modules main.scss main.css"
+  }
+}
