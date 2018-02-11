@@ -314,6 +314,10 @@ html {
   justify-content: center;
   align-items: center;
   flex-direction: column; }
+  .PageList-title {
+    color: #61c250;
+    font-size: 3em;
+    font-weight: 300; }
   .PageList-link {
     padding: 15px 25px;
     margin: 10px;
