@@ -1,0 +1,79 @@
+.UJM {
+  width: 100vw;
+  max-width: 1280px;
+  height: 100vh;
+  padding: 1rem;
+  margin: 0 auto;
+  
+  &-header {
+    display: flex;
+    align-items: center;
+  }
+
+  &-title {
+    margin: 0 0 1rem;
+    line-height: 50px;
+    font-weight: 300;
+    color: $primary-color;
+  }
+
+  &-table {
+    width: 100%;
+    height: calc(100% - 66px);
+
+    th {
+      color: $accent-color;
+      font-size: 1.5em;
+      font-weight: 400;
+      background-color: rgba(0, 0, 0, 0.15);
+    }
+
+    tbody th {
+      width: 10%;
+    }
+
+    thead th,
+    tbody td {
+      width: 25%;
+    }
+  }
+
+  &-input {
+    width: 100%;
+    height: 100%;
+    padding: 0.25rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid transparent;
+    color: #fff;
+    text-align: left;
+    transition: all 0.3s;
+    resize: none;
+
+    &:focus {
+      background-color: rgba(0, 0, 0, 0.5);
+      border-color: $primary-color;
+      outline: 0;
+    }
+
+    &--header {
+      font-size: 1.5rem;
+      background-color: rgba(0, 0, 0, 0.35);
+    }
+  }
+  
+  &-clearBtn {
+    padding: 6px 12px;
+    margin-left: auto;
+    background-color: $primary-color;
+    color: #2b2b2b;
+    border: 0;
+    border-radius: 2px;
+    font-size: 0.875em;
+    text-transform: uppercase;
+    
+    &:hover,
+    &:focus {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+}

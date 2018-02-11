@@ -14,7 +14,7 @@
   &-link {
     padding: 15px 25px;
     margin: 10px;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
     font-size: 2em;
     font-weight: 300;
@@ -24,7 +24,7 @@
 
     &:hover,
     &:focus {
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: rgba(0, 0, 0, 0.4);
       border-color: $primary-color;
     }
   }
